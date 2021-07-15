@@ -1,0 +1,49 @@
+[class*="grid__"],
+[class*="grid-cell__"] {
+    display: grid;
+}
+
+[class*="grid__"] [class*="--header"] {
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+[class*="grid__"][data-columns="auto-fit"] {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+[class*="grid__"][data-columns="2"] {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+[class*="grid__"][data-columns="3"] {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+[class*="grid__"][data-columns="4"] {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+[class*="grid__"][data-columns="5"] {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+[class*="grid__"][data-columns="6"] {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+[class*="grid__"][data-columns="7"] {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+[class*="grid__"][data-columns="8"] {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+[class*="grid__"][data-columns="9"] {
+    grid-template-columns: repeat(9, 1fr);
+}
+
+[class*="grid__"][data-columns="10"] {
+    grid-template-columns: repeat(10, 1fr);
+}
